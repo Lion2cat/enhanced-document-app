@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Enhanced Document app",
+    "slug": "enhanced-document-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.icegod.enhanceddocumentapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.icegod.enhanceddocumentapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e8fad73-1ef6-4d69-aebf-6bc5bc55a2d8"
+      }
+    },
+    "owner": "ice_god",
+    "updates": {
+      "url": "https://u.expo.dev/6e8fad73-1ef6-4d69-aebf-6bc5bc55a2d8"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
